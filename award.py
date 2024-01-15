@@ -6,8 +6,9 @@ Program must include time (in min) for 3 events:
     Running
 """
 
-# Request participants name.
+# Request participants first name and surname.
 first_name = input("Enter your name: ")
+surname = input("Enter your surname: ")
 
 # Request participants times for each event.
 swimming_time = int(input("Enter your swimming time in minutes: "))
@@ -16,7 +17,7 @@ running_time = int(input("Enter your running time in minutes: "))
 
 # Calculate and display total time to complete triathlon.
 total_time = swimming_time + cycling_time + running_time
-print(f"Hi {first_name}, your total time is {total_time} minutes.")
+print(f"Hi {first_name} {surname}, your total time is {total_time} minutes.")
 
 """
 Qualifying time is 100 minutes.
