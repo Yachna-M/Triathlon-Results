@@ -10,12 +10,12 @@ Program must include time (in min) for 3 events:
 first_name = input("Enter your name: ")
 
 # Request participants times for each event.
-swimming = int(input("Enter your swimming time in minutes: "))
-cycling = int(input("Enter your cycling time in minutes: "))
-running = int(input("Enter your running time in minutes: "))
+swimming_time = int(input("Enter your swimming time in minutes: "))
+cycling_time = int(input("Enter your cycling time in minutes: "))
+running_time = int(input("Enter your running time in minutes: "))
 
 # Calculate and display total time to complete triathlon.
-total_time = swimming + cycling + running
+total_time = swimming_time + cycling_time + running_time
 print(f"Hi {first_name}, your total time is {total_time} minutes.")
 
 """
